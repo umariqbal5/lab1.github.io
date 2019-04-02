@@ -1,7 +1,7 @@
 
 /*Umar*/
 body	{
-    background-image: url(images/silverware.jpg);
+    background-image: url(../images/silverware.jpg);
 
 }
 h1,h2{
@@ -40,5 +40,5 @@ pre, #validators{
     text-align: right;
 }
 ul	{
-    list-style-image: url(images/pie_icon.gif);
+    list-style-image: url(../images/pie_icon.gif);
 }
