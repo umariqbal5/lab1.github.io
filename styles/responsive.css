@@ -1,0 +1,31 @@
+header{
+    background-color: dodgerblue;
+    padding: 10px;
+    text-align: center;
+}
+nav{
+    background-color: darkgreen;
+    padding: 10px;
+}
+#column1, #column2, #column3{
+
+    display: inline-block;
+    width: 33%;
+    height: 200px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#column1{
+    background-color: #999999;
+}
+#column2{
+    background-color: gray;
+}
+#column3{
+    background-color: dimgray;
+}
+footer{
+    background-color: darkgreen;
+    padding: 10px;
+}
