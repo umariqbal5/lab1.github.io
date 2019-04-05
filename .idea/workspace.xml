@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ea851d0-3e29-46a8-aba7-5310c71ac0d3" name="Default" comment="" />
+    <list default="true" id="0ea851d0-3e29-46a8-aba7-5310c71ac0d3" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,7 +13,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="jsintrohelper.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="jsintrohelper.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jsintrohelper.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
@@ -39,6 +41,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -49,7 +60,6 @@
       <list>
         <option value="$PROJECT_DIR$/styleme.css" />
         <option value="$PROJECT_DIR$/recipe.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/aboutme.html" />
         <option value="$PROJECT_DIR$/pie.html" />
         <option value="$PROJECT_DIR$/styles/recipe.css" />
@@ -58,6 +68,7 @@
         <option value="$PROJECT_DIR$/lab4.html" />
         <option value="$PROJECT_DIR$/styles/lab4.css" />
         <option value="$PROJECT_DIR$/jsintrohelper.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -175,12 +186,12 @@
       <option name="presentableId" value="Default" />
       <updated>1554231202117</updated>
       <workItem from="1554231213298" duration="7777000" />
-      <workItem from="1554316674713" duration="9744000" />
+      <workItem from="1554316674713" duration="9838000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17521000" />
+    <option name="totallyTimeSpent" value="17615000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -266,13 +277,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="5" lean-forward="true" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/aboutme.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -334,6 +338,13 @@
             <element signature="e#3721#3918#0" />
             <element signature="e#4088#4164#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
         </state>
       </provider>
     </entry>
