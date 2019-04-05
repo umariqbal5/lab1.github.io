@@ -16,8 +16,8 @@
       <file leaf-file-name="jsintrohelper.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jsintrohelper.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="172" column="82" selection-start-line="172" selection-start-column="82" selection-end-line="172" selection-end-column="82" />
+            <state relative-caret-position="468">
+              <caret line="181" column="93" selection-start-line="181" selection-start-column="93" selection-end-line="181" selection-end-column="93" />
               <folding>
                 <element signature="e#378#912#0" />
                 <element signature="e#994#1131#0" />
@@ -194,12 +194,12 @@
       <option name="presentableId" value="Default" />
       <updated>1554231202117</updated>
       <workItem from="1554231213298" duration="7777000" />
-      <workItem from="1554316674713" duration="10901000" />
+      <workItem from="1554316674713" duration="11107000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18678000" />
+    <option name="totallyTimeSpent" value="18884000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -337,8 +337,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jsintrohelper.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="172" column="82" selection-start-line="172" selection-start-column="82" selection-end-line="172" selection-end-column="82" />
+        <state relative-caret-position="468">
+          <caret line="181" column="93" selection-start-line="181" selection-start-column="93" selection-end-line="181" selection-end-column="93" />
           <folding>
             <element signature="e#378#912#0" />
             <element signature="e#994#1131#0" />
