@@ -170,6 +170,7 @@ Look in the Chrome developer console to see the output. CTRL_SHIFT_J
         return elem * 10;
     })
     console.log(b);
+    outputDiv.innerHTML = outputDiv.innerHTML+"<br>"+"multiply each element by 10: "+b;
     const c = a.filter(function(elem, i, array){
         return elem === 3;});
     console.log(c);
