@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+<span id="output"></span>
+<button id="stopBtn" >Stop</button>
+<script>
+
+var timer = null;
+window.onload = function(){
+if(timer == null){
+    timer = setInterval(function(){
+    document.getElementById("output").innerHTML+=" Umar!";
+    },1000);
+}
+
+document.getElementById('stopBtn').onclick = function(){clearInterval(timer);
+                                                        timer = null}
+                                                        ;
+}
+
+
+</script>
+</body>
+</html>

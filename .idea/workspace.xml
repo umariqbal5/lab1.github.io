@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ea851d0-3e29-46a8-aba7-5310c71ac0d3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/jsintrohelper.html" beforeDir="false" afterPath="$PROJECT_DIR$/jsintrohelper.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/setIntervalExample.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,47 +14,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="jsintrohelper.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="setIntervalExample.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/setIntervalExample.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jsintrohelper.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jsintrohelper.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="181" column="93" selection-start-line="181" selection-start-column="93" selection-end-line="181" selection-end-column="93" />
-              <folding>
-                <element signature="e#378#912#0" />
-                <element signature="e#994#1131#0" />
-                <element signature="e#1225#1268#0" />
-                <element signature="e#1077#1112#0" />
-                <element signature="e#1382#1432#0" />
-                <element signature="e#1534#1586#0" />
-                <element signature="e#1531#1575#0" />
-                <element signature="e#1692#1745#0" />
-                <element signature="e#1860#1905#0" />
-                <element signature="e#1850#1903#0" />
-                <element signature="e#2188#2233#0" />
-                <element signature="e#1957#2077#0" />
-                <element signature="e#2175#2219#0" />
-                <element signature="e#2650#2686#0" />
-                <element signature="e#2323#2367#0" />
-                <element signature="e#2958#2994#0" />
-                <element signature="e#2449#2594#0" />
-                <element signature="e#2690#2735#0" />
-                <element signature="e#3449#3486#0" />
-                <element signature="e#2833#2993#0" />
-                <element signature="e#3096#3146#0" />
-                <element signature="e#3990#4032#0" />
-                <element signature="e#3211#3363#0" />
-                <element signature="e#3484#3537#0" />
-                <element signature="e#4408#4453#0" />
-                <element signature="e#3611#3847#0" />
-                <element signature="e#3973#4049#0" />
-                <element signature="e#5074#5142#0" />
-                <element signature="e#4127#4316#0" />
-                <element signature="e#4482#4560#0" />
-                <element signature="e#5814#5884#0" />
-                <element signature="e#4667#4708#0" />
-                <element signature="e#4785#4818#0" />
-                <element signature="e#4907#4955#0" />
-              </folding>
+            <state relative-caret-position="142">
+              <caret line="164" lean-forward="true" selection-start-line="164" selection-end-line="164" />
             </state>
           </provider>
         </entry>
@@ -77,6 +60,7 @@
         <option value="$PROJECT_DIR$/styles/lab4.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/jsintrohelper.html" />
+        <option value="$PROJECT_DIR$/setIntervalExample.html" />
       </list>
     </option>
   </component>
@@ -194,12 +178,12 @@
       <option name="presentableId" value="Default" />
       <updated>1554231202117</updated>
       <workItem from="1554231213298" duration="7777000" />
-      <workItem from="1554316674713" duration="11107000" />
+      <workItem from="1554316674713" duration="14200000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18884000" />
+    <option name="totallyTimeSpent" value="21977000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -236,6 +220,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.html" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -330,51 +317,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="8" lean-forward="true" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+        <state>
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jsintrohelper.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="181" column="93" selection-start-line="181" selection-start-column="93" selection-end-line="181" selection-end-column="93" />
-          <folding>
-            <element signature="e#378#912#0" />
-            <element signature="e#994#1131#0" />
-            <element signature="e#1225#1268#0" />
-            <element signature="e#1077#1112#0" />
-            <element signature="e#1382#1432#0" />
-            <element signature="e#1534#1586#0" />
-            <element signature="e#1531#1575#0" />
-            <element signature="e#1692#1745#0" />
-            <element signature="e#1860#1905#0" />
-            <element signature="e#1850#1903#0" />
-            <element signature="e#2188#2233#0" />
-            <element signature="e#1957#2077#0" />
-            <element signature="e#2175#2219#0" />
-            <element signature="e#2650#2686#0" />
-            <element signature="e#2323#2367#0" />
-            <element signature="e#2958#2994#0" />
-            <element signature="e#2449#2594#0" />
-            <element signature="e#2690#2735#0" />
-            <element signature="e#3449#3486#0" />
-            <element signature="e#2833#2993#0" />
-            <element signature="e#3096#3146#0" />
-            <element signature="e#3990#4032#0" />
-            <element signature="e#3211#3363#0" />
-            <element signature="e#3484#3537#0" />
-            <element signature="e#4408#4453#0" />
-            <element signature="e#3611#3847#0" />
-            <element signature="e#3973#4049#0" />
-            <element signature="e#5074#5142#0" />
-            <element signature="e#4127#4316#0" />
-            <element signature="e#4482#4560#0" />
-            <element signature="e#5814#5884#0" />
-            <element signature="e#4667#4708#0" />
-            <element signature="e#4785#4818#0" />
-            <element signature="e#4907#4955#0" />
-          </folding>
+        <state relative-caret-position="142">
+          <caret line="164" lean-forward="true" selection-start-line="164" selection-end-line="164" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setIntervalExample.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
         </state>
       </provider>
     </entry>
