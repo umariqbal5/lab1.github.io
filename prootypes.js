@@ -17,6 +17,7 @@ window.onload = function(){
     };
 
 
+    //2.
     // swap function helper
     function swap(array, i, j) {
         var temp = array[i];
@@ -36,6 +37,27 @@ window.onload = function(){
     }
 
 
+    //3.
+    function Person(n){
+        this.name = n;
+        this.teach = function(subject){
+            logger(this.name + ' is now teaching '+subject);
+        }
+    }
+
+    const Teacher = new Person('Umar');
+    Teacher.teach('Maths');
+
+
+    const Person2 = {
+        name : '',
+        teach: function (subject){
+            logger(this.name + ' is now teaching '+subject);
+        }
+    }
+    const Teacher2 = Object.create(Person2);
+    Teacher2.name='Umar'
+    Teacher2.teach('CS');
 
 
 
