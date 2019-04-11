@@ -1,0 +1,151 @@
+Quiz 8 Q1 will be in MID exam
+
+Q20 
+Q from Set time out
+Same Q as Mid Exam review JQuery
+Box model in MCQ
+
+
+Will not
+Q16 , 17, 18, 
+
+##______________________
+	LECTURE 1
+##______________________
+
+If there is only IP and not TCP then following can be issues
+1. Data Loss (in TCP data is sent by packges now and we can have check and balance. TCP is adding extra info in headers)
+2. Duplication
+3. Sequencing
+4. Curruption
+
+
+-----------
+
+1. URI (Identifier)
+2. URL (Locator)
+3. URN (Name)
+URI (Identifier) = URL (Locator) + URN (Name)
+
+----------
+
+idempotent = response will always same for same input
+
+**HTTP commands which are Idempotent
+GET
+PUT
+HEAD
+OPTION
+DELETE
+
+**HTTP commands not Idempotent
+POST
+
+
+##______________________
+	LECTURE 2
+##______________________
+
+
+
+
+##______________________
+	LECTURE 3
+##______________________
+
+
+div center = 
+margin : auto & specific width
+
+
+if need to make block element as inline-element: 
+display: inline-block;
+e.g div{display: inline-block;} //all div will be on same line now and also can have with,height, marging and padding
+
+- display: flex;
+
+Positions
+1. static
+2 relative
+3 absolute
+4 fixed
+
+
+Z-index decide the stack position of overlapped elements. less z-index means at bottom.
+
+
+-float: right
+for wrapping text arround image / can apply to any div, img or other box elements
+for positioning element to right left bottom or top
+block element becomes an inline element after applying float.
+give specific width. otherwise block element tak full width according to its content if content is bigger enough. otherwise only tak epsace according to content.
+
+-Clear:
+its for stop the float which we want to get off. 
+if image is float. if we want to not get effected one div or h1 by this. we can add clear to that div or h1
+
+
+-Overflow: hidden:
+if float element is going outside of its block element. then use overflow. it will expand container block element.
+
+
+-Multi Column text layout just like news papers.
+column-count:2
+column-gap: 10px;
+column-rule: 2px dotted blue;
+
+
+##______________________
+	LECTURE 4
+##______________________
+
+
+##______________________
+	LECTURE 5
+##______________________
+
+
+java script array behave like stack and queue. we can add in front or back of array
+var is not block scoped
+let and cont are block scoped
+const use for non changable values
+undefined means a variable has been declared but has not yet been assigned a value. On the other hand, null is an assignment value. It can be assigned to a variable as a representation of no value
+const cannot reassign. but we can change its values if its a object or array.
+check variable type: typeof x
+== checking only value
+=== checking value and data type.
+
+
+
+
+##______________________
+	LECTURE 7
+##______________________
+
+
+--> Very IMPORTANT question for INTERVIEWS
+What is Closure, you should know how to explain it. and examples.
+https://medium.freecodecamp.org/javascript-closures-simplified-d0d23fa06ba4
+
+
+Example of Closure & also called Function Factory with closures
+function makeadd(x){
+return function (y){
+	return x+y; // x is free variable here for this function
+}
+}
+makeadd(2)(3); //Calling
+
+
+--> No function overriding in Javascript. the last function will override previous if same name, even different signature
+--> arguments Object: If there is no parameter in function,. but we pass arguments. it will automatically introduce "arguments" parameter.
+	function sum(){
+	arguments[1];	//all arguments
+	arguments[2];
+	}
+--> "Rest" parameter  (ES6)
+	function sum(x,y, ...more){
+	more[1]; //all extra arguments
+	more[2];
+	}
+
