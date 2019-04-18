@@ -1,0 +1,27 @@
+context selector=>    div > .warning || p span
+pseudo-class		 p:hover
+pseudo-element		p::first-letter
+
+
+
+revealing module pattern
+_______________________
+
+const adder = (function(){
+	var num = 0; //private
+
+	function addr(x){
+	num = x;
+	}
+
+
+return {
+	addr1 : function(x){addr(x);},
+	val: function(){return num;}
+}
+})();
+
+
+
+adder.addr1(10);
+console.log(adder.val);
