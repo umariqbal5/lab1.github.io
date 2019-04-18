@@ -21,14 +21,14 @@ color: red;
 <body>
     <div>
     <div class="error"></div>
-        <form method="post" action="#">
+        <form method="post" action="#" id="bookingForm">
             <label>Name</label>
-            <input type="text" id="name" required><br/>
+            <input type="text" id="name"><br/>
             <label>Street</label>
-            <input type="text" id="street"><br/>
+            <input type="text" id="street" ><br/>
 
             <label>State</label>
-            <select id="state">
+            <select id="state" >
             <option value="">Select One</option>
             <option value="iowa">IOWA</option>
             <option value="ny">NY</option>
@@ -36,9 +36,9 @@ color: red;
             <br/>
 
             <label>Zip Code</label>
-            <input type="text" id="zipcode"><br/>
+            <input type="number" id="zipcode" ><br/>
             <label>How many seats?</label>
-            <input type="number" id="seats"><br/>
+            <input type="number" id="seats" value="1" ><br/>
 
             <fieldset>
                 <legend>Which taxi do you require?</legend>
@@ -52,8 +52,8 @@ color: red;
                 <input type="checkbox" name="extra" value="wheelchair">WheelChair Access <br/>
                 <input type="checkbox" name="extra" value="tip">Stock Tip <br/>
             </fieldset>
- <label>Zip Code</label>
- <textarea id="special" rows="3" cols="10">
+ <label>Special Instructions</label>
+ <textarea id="special" rows="3" cols="20">
 </textarea>
 <br/>
 <input type="submit" id="btnSubmit" value="Submit Booking">
@@ -66,17 +66,54 @@ color: red;
     });
 
     $('#bookingForm').submit(function (evt){
-             evt.preventDefault();
-             let error = $('.error')[0];
-             error = $(error);
-             error.text('');
+            evt.preventDefault();
+            let error = $('.error')[0];
+            error = $(error);
+            error.html('');
+            let valid=true;
 
-
-            if($('#name').val() || $('#name').val()==''){
-             error.append('Name cannot be empty.')
+            if(!$('#name').val()) {
+              error.append('Name cannot be empty.<br>');
+              valid = false
             }
-            // this.submit();
-         })
+
+            if(!$('#street').val()) {
+              error.append('Street cannot be empty.<br>');
+              valid = false
+            }
+
+            if(!$('#state').val()) {
+              error.append('Please select State.<br>');
+              valid = false
+            }
+
+            if(!$('#zipcode').val()) {
+              error.append('Zip Code cannot be empty.<br>');
+              valid = false
+            }
+
+            if(!$('#seats').val()) {
+              error.append('Seats cannot be empty.<br>');
+              valid = false
+            }else if($('#seats').val()>200){
+              error.append('You can choose Max 200 Seats at a time.<br>');
+              valid = false
+            }
+
+            if(!$(':radio:checked').val()) {
+              error.append('Please select Car Type.<br>');
+              valid = false
+            }
+
+            if(!$(':checkbox:checked').val()) {
+              error.append('Please select Extra.<br>');
+              valid = false
+            }
+
+            if(valid){
+              this.submit();
+            }
+         });
 
 
     </script>
